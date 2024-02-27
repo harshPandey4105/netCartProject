@@ -1,0 +1,23 @@
+.third-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p {
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .content p {
+        font-size: 10px;
+    }
+}
